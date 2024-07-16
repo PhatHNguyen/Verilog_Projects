@@ -1,9 +1,9 @@
 module tb_SRAMControl();
 
 reg 	clk,
-		rst,
-      write,
-		read;
+	rst,
+        write,
+        read;
 reg [7:0] data_in;
 reg [2:0] Addr;
 
