@@ -1,12 +1,11 @@
 module SRAM_Control(
 
-	input     clk,
-				 rst,
-             write,
-			    read,
-     [7:0]   data_in,
-	  [2:0]   Addr,
-	
+     input      clk,
+        	rst,
+                write,
+                read,
+	[7:0]   data_in,
+	[2:0]   Addr,
    output reg [7:0] data_out
 );
 
