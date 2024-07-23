@@ -1,3 +1,11 @@
+/*
+Author:    Phat Nguyen
+Date:      6/23/24
+File Contents:
+This module represents a series of test to check for funcatioanlity of 
+FIFO_buffer module. With that, the test bench contains testing for:
+storing, reading, and reseting operation of FIFO.
+*/
 module tb_FIFO();
 
 reg [31:0] data_in;
