@@ -1,3 +1,11 @@
+/*
+Author:    Phat Nguyen
+Date:      6/15/24
+File Contents:
+This module represents a series of test to check for funcatioanlity of 
+SRAM_Control module. With that, the test bench contains testing for:
+writing, reading, and reseting operation.
+*/
 module tb_SRAMControl();
 
 reg 	clk,
