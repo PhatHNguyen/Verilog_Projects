@@ -1,3 +1,10 @@
+/*
+Author:    Phat Nguyen
+Date:      6/23/24
+File Contents:
+This module implements a simple SRAM (Static Random-Access Memory) controller with synchronous reset and single-clock cycle write and read operations.
+The module utilizes an 8-bit data bus and a 3-bit address bus to access a 64-byte memory array, allowing user to store/read data from the bus.
+*/
 module SRAM_Control(
 
      input      clk,
