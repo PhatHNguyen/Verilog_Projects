@@ -1,3 +1,11 @@
+/*
+Author:    Phat Nguyen
+Date:      6/23/24
+File Contents:
+This module represents a FIFO memory buffer with asynchronous reset capability and clocked read/write operations,
+allowing users to write data and read the oldest data that has been stored. It utilizes a 256-word memory to store
+32-bit data and manages full and empty status flags to indicate buffer conditions.
+*/
 module FIFO_Buffer(
 	input [31:0] data_in,
 	input        clk,
