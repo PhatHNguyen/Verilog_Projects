@@ -1,15 +1,33 @@
-Verilog Projects Repository
+# Verilog Projects Repository
 
-This repository contains a collection of my personal Verilog projects. Each project demonstrates a key concept in hardware design, including finite state machines (FSM), controllers, arithmetic units, and more. Below is an overview of the projects available:
+This repository contains a collection of Verilog projects developed as part of my coursework and personal exploration of digital design. Each project demonstrates key concepts in hardware design, including controllers, communication protocols, memory management, and arithmetic operations.
 
-Projects Overview
+## Projects Overview
 
+### 1. Double Dabble
+A Verilog implementation of the Double Dabble algorithm, used to convert binary values to Binary-Coded Decimal (BCD) format.
 
-UART Transmitter and Receiver:
-Full implementation of UART communication, including both transmission and reception of data, providing a foundation for serial communication in digital systems.
-SRAM: 
-Implementation of a static RAM (SRAM) controller, allowing efficient read/write operations from external memory.
-FIFO Buffer:
+### 2. FIFO Buffer
 A first-in, first-out (FIFO) buffer implementation for temporary data storage, demonstrating efficient data management in hardware designs.
-Unsigned Division Module:
+
+### 3. SPI Communication
+An SPI (Serial Peripheral Interface) communication module that facilitates data exchange between devices, such as microcontrollers and sensors, using a synchronous communication protocol.
+
+### 4. SRAM Verilog
+An implementation of a static RAM (SRAM) controller, allowing efficient read/write operations to and from external memory.
+
+### 5. UART
+Full implementation of UART communication, including both transmission and reception of data, providing a foundation for serial communication in digital systems.
+
+### 6. Unsigned Division
 Implementation of an efficient unsigned division algorithm in Verilog, demonstrating arithmetic computation without built-in hardware division.
+
+## Getting Started
+
+Each project includes its own folder with the Verilog source files, simulation testbenches, and documentation. To run or modify the projects, you'll need:
+
+- An FPGA development environment (such as Xilinx Vivado or Intel Quartus)
+- A supported FPGA board (e.g., Xilinx or Intel FPGA)
+- Simulation tools for testing and verification (e.g., ModelSim)
+
+Feel free to explore the projects and adapt them for your own learning or development purposes.
