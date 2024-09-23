@@ -22,12 +22,3 @@ Full implementation of UART communication, including both transmission and recep
 ### 6. Unsigned Division
 Implementation of an efficient unsigned division algorithm in Verilog, demonstrating arithmetic computation without built-in hardware division.
 
-## Getting Started
-
-Each project includes its own folder with the Verilog source files, simulation testbenches, and documentation. To run or modify the projects, you'll need:
-
-- An FPGA development environment (such as Xilinx Vivado or Intel Quartus)
-- A supported FPGA board (e.g., Xilinx or Intel FPGA)
-- Simulation tools for testing and verification (e.g., ModelSim)
-
-Feel free to explore the projects and adapt them for your own learning or development purposes.
